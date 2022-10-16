@@ -9,6 +9,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "dev": "PORT=8080 react-scripts start",
     "build": "react-scripts build",
     "do-build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
@@ -22,7 +23,9 @@
   ],
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "cypress": "^10.10.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gskumawat0/todo.git"
